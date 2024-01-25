@@ -1,0 +1,17 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Ansible",
+		"ApplySyntax",
+		"LSP",
+		"LSP-bash",
+		"LSP-file-watcher-chokidar",
+		"LSP-terraform",
+		"Package Control",
+		"Terraform",
+	],
+}

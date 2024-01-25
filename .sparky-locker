@@ -1,0 +1,2 @@
+# activates screenlock after minutes of inactivity (default 10)
+LOCKERTIME="10"

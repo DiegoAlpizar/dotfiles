@@ -1,0 +1,11 @@
+{
+	"side_bar_layout": "locations_as_column",
+	"commit_graph_ordering": "commit_date",
+	"diff_style": "auto",
+	"display_author_date": false,
+	"hardware_acceleration": "opengl",
+	"hide_menu": false,
+	"image_diff_style": "onion-skin",
+	"expand_merge_commits_by_default": false,
+	"font_face": "Operator Mono",
+}
