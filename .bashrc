@@ -115,8 +115,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-if [ -f ~/.my_bash_completions ]; then
-    . ~/.my_bash_completions
-fi
+[ -f ~/.myBash/bash_completions ]  &&  source ~/.myBash/bash_completions
 
 prependToPath "$HOME/bin" "$HOME/.local/bin"
