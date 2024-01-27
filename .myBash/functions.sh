@@ -33,6 +33,7 @@ updateEverything() {
 
 # GIT_WORK_TREE=~ GIT_DIR=~/.dotfiles/  smerge -n ~
 # https://stackoverflow.com/questions/11856690/setting-the-work-tree-of-each-bare-repo
+# Unrelated: https://stackoverflow.com/questions/52742435/what-does-git-config-core-worktree-mean
 dotfilesUnbare () {
 
   dotfiles config --bool core.bare false
