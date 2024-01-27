@@ -1,3 +1,4 @@
+# cat tmp/exluded.txt  |  git check-ignore -v --stdin -n
 
 .dotfiles/
 
