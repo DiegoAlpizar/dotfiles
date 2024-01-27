@@ -97,11 +97,9 @@ fi
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
+[ -f ~/.myBash/aliases ]  &&  source ~/.myBash/aliases
 
-[ -f ~/.myBash/functions.sh ] && source ~/.myBash/functions.sh
+[ -f ~/.myBash/functions.sh ]  &&  source ~/.myBash/functions.sh
 
 
 # enable programmable completion features (you don't need to enable
