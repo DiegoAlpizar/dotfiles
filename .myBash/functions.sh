@@ -30,3 +30,30 @@ updateEverything() {
 	sudo  apt update  &&  apt full-upgrade
 	
 }
+
+# GIT_WORK_TREE=~ GIT_DIR=~/.dotfiles/  smerge -n ~
+# https://stackoverflow.com/questions/11856690/setting-the-work-tree-of-each-bare-repo
+dotfilesUnbare () {
+
+  dotfiles config --bool core.bare false
+  dotfiles config --get-regexp core.bare
+  
+  dotfiles config --path core.worktree ~
+  dotfiles config --get-regexp core.worktree
+
+  ln --symbolic ~/.dotfiles ~/.git
+  ls -l --directory ~/.git ~/.dotfiles
+
+}
+
+dotfilesRebare () {
+
+  dotfiles config --unset core.worktree
+  dotfiles config --bool core.bare true
+  unlink ~/.git
+
+  dotfiles config --get-regexp core.bare
+  dotfiles config --get-regexp core.worktree
+  ls -l --directory ~/.git ~/.dotfiles
+
+}
