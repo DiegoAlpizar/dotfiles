@@ -56,6 +56,9 @@ alias sfdisk='sfdisk --color=auto'
 alias less='less -M'
 
 
+alias dotfiles='git --work-tree=$HOME --git-dir=$HOME/.dotfiles/'
+
+
 #######   AWS   #######
 alias s3='aws s3'
 alias s3ls='aws  s3  ls --human-readable --summarize'
