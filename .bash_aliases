@@ -9,8 +9,8 @@ alias vdir='vdir --color=auto -hF'
 
 alias grep='grep --color=auto'
 
-alias +='pushd .'
-alias ++='pushd'
+alias ++='pushd .'
+alias +++='pushd'
 alias _='popd'
 alias ..='cd ..'
 alias ...='cd ../..'
