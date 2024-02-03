@@ -16,6 +16,7 @@
 		"LSP-dockerfile",
 		"LSP-file-watcher-chokidar",
 		"LSP-terraform",
+		"LSP-yaml",
 		"Package Control",
 		"Terraform",
 		"YamlPipelines",
