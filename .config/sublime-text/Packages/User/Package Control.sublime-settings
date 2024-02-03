@@ -7,11 +7,17 @@
 	[
 		"Ansible",
 		"ApplySyntax",
+		"Dockerfile Syntax Highlighting",
+		"Emoji",
+		"FileIcons",
+		"GithubEmoji",
 		"LSP",
 		"LSP-bash",
+		"LSP-dockerfile",
 		"LSP-file-watcher-chokidar",
 		"LSP-terraform",
 		"Package Control",
 		"Terraform",
+		"YamlPipelines",
 	],
 }
