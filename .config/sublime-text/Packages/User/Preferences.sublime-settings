@@ -5,6 +5,10 @@
 	//"auto_complete_cycle": true,
 	//"auto_complete_use_history": true,
 	"auto_complete_trailing_symbols":	true,
+	"auto_complete_triggers":			[ {"selector": "text.html, text.xml", "characters": "<"}
+										, {"selector": "punctuation.accessor", "rhs_empty": true}
+										//, {"characters": ":", "selector": "text.html.markdown, text.git.commit"},	// GitHubEmoji
+										],
 	//"auto_complete_with_fields": true,
 	//"auto_find_in_selection": true,
 	"auto_hide_menu":					true,
