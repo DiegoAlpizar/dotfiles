@@ -8,4 +8,8 @@
 	"image_diff_style": "onion-skin",
 	"expand_merge_commits_by_default": false,
 	"font_face": "Operator Mono",
+	"repository_aliases":
+	{
+		"/home/diego/Desktop/1st Learning Demo Terraform-AWS-GitHub/master/.git": "1st Learning Demo Terraform-AWS-GitHub"
+	},
 }
