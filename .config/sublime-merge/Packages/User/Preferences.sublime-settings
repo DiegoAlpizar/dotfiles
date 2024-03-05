@@ -10,6 +10,7 @@
 	"font_face": "Operator Mono",
 	"repository_aliases":
 	{
-		"/home/diego/Desktop/1st Learning Demo Terraform-AWS-GitHub/master/.git": "1st Learning Demo Terraform-AWS-GitHub"
+		"/home/diego/Desktop/1st Learning Demo Terraform-AWS-GitHub/master/.git": "1st Learning Demo Terraform-AWS-GitHub",
+		"/home/diego/Desktop/My Windows Settings/Master/.git": "My Windows Settings",
 	},
 }
