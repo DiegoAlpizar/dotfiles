@@ -40,7 +40,7 @@
 	"show_project_first":				true,
 	"show_rel_path":					true,
 	"show_tab_close_buttons":			false,
-	//"tab_completion":					false,
+	"tab_completion":					false,
 	//"trim_automatic_white_space":		false,
 	//"trim_trailing_white_space_on_save": "all",
 	"word_wrap":						true,
