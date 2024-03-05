@@ -35,6 +35,10 @@ Projects/
 
 .config/libreoffice/
 
+.config/pgadmin4
+
+.config/Postman
+
 .npm/
 
 .vscode/
