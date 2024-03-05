@@ -15,6 +15,7 @@ Pictures/
 Videos/
 bin/
 tmp/
+Projects/
 
 .config/Code/
 #.config/Code/**/*Cache*/
