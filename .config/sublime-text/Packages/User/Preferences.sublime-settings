@@ -2,7 +2,7 @@
 	"adaptive_dividers":				true,
 	"always_show_minimap_viewport":		true,
 	//"auto_complete_commit_on_tab": true,
-	//"auto_complete_cycle": true,
+	"auto_complete_cycle": true,
 	//"auto_complete_use_history": true,
 	"auto_complete_trailing_symbols":	true,
 	"auto_complete_triggers":			[ {"selector": "text.html, text.xml", "characters": "<"}
