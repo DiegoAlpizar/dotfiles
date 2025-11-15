@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=picom -b
+Exec=picom --daemon --backend glx
 Name=Picom - Compositor
 Type=Application
 Version=1.0
