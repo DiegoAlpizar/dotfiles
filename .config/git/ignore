@@ -62,23 +62,98 @@ Projects/
 
 .config/fontconfig/fonts.conf.bak
 
+.config/lxqt/lxqt-config-file-associations.conf
+.config/lxqt/lxqt-config-input.conf
+.config/lxqt/power.conf
+.config/lxqt/windowmanagers.conf
+
 .config/mgba/*.sqlite3
+
+.config/partitionmanagerrc
+
+.config/pcmanfm-qt/lxqt/desktop-items-0.conf
 
 .config/pulse/
 
 .config/sublime-text/Installed Packages/
 .config/sublime-text/Lib/
 
+.config/sublime-merge/Local/Auto Save Session.sublime_session
+.config/sublime-text/Local/Auto Save Session.sublime_session
+.config/sublime-merge/Local/Session.sublime_session
+.config/sublime-text/Local/Session.sublime_session
+
+.config/BraveSoftware/Brave-Browser/NativeMessagingHosts/com.persepolis.pdmchromewrapper.json
+.config/chromium/NativeMessagingHosts/com.persepolis.pdmchromewrapper.json
+.config/opera/NativeMessagingHosts/com.persepolis.pdmchromewrapper.json
+.config/vivaldi/NativeMessagingHosts/com.persepolis.pdmchromewrapper.json
+
+# Contains history
+.config/vlc/vlc-qt-interface.conf
+
+.config/vokoscreenNG/InstallTime.ini
+
+.config/ClickUp/
+#.config/ClickUp/Cache
+#.config/ClickUp/Code Cache
+#.config/ClickUp/Crashpad
+#.config/ClickUp/Service Worker
+
+.adobe/Acrobat/9.0/AdobeCMapFnt09.lst
+.adobe/Acrobat/9.0/SharedDataEvents
+.adobe/Acrobat/9.0/Cache/
+.adobe/Acrobat/9.0/Cert/curl-ca-bundle.crt
+.adobe/Acrobat/9.0/Preferences/reader_prefs
+.adobe/Acrobat/9.0/*.sav
+.adobe/Acrobat/9.0/*.bin
+
+# Contains auth tokens!
+.docker/config.json
+
+.gnupg/.#lk0x*
+.gnupg/pubring.kbx
+.gnupg/trustdb.gpg
+
+.googleearth/
+#.googleearth/Cache
+
+.java/fonts/17.0.12-ea/fcinfo-1-hp-Sparky-Sparky-8-en-US.properties
+
+.pgadmin/pgadmin4.log.*
+.pgadmin/sessions/
+
+.var/app/io.missioncenter.MissionCenter/cache/
+.var/app/io.missioncenter.MissionCenter/.ld.so/active
+.var/app/io.missioncenter.MissionCenter/.ld.so/b41fa8b8064f95e68680250b8ba19510a808929044678d114644b5be55b8fa79
+
+.var/app/org.jdownloader.JDownloader/cache/
+.var/app/org.jdownloader.JDownloader/.ld.so/
+
 .terraform.d/checkpoint_cache
 .terraform.d/checkpoint_signature
 .terraform.d/plugin-cache/registry.terraform.io/hashicorp/aws/5.31.0/linux_amd64/terraform-provider-aws_v5.31.0_x5
 
 .dotnet/corefx/cryptography/crls/
+.dotnet/corefx/cryptography/x509stores/my/AD74371D4D43800FD2B0BE57CDBEA1D268FB4E2E.pfx
+
+.bash_history
+.bash_history-47511.tmp
 
 .face
 .face.icon
 
+.lesshst
+
+.profile.bak
+
+.psql_history
+
+.python_history
+
+.wget-hsts
+
 .xsession-errors
+.xsession-errors.old
 
 .Xauthority
 
