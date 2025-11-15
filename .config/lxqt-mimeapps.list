@@ -1,4 +1,4 @@
 [Default Applications]
-application/pdf=qpdfview.desktop
+application/pdf=AdobeReader.desktop
 inode/directory=pcmanfm-qt.desktop
 text/plain=featherpad.desktop

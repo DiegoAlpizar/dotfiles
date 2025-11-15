@@ -15,6 +15,7 @@ image/gif=sparky-tube.desktop;vlc.desktop;
 application/vnd.ms-publisher=featherpad.desktop;
 inode/directory=pcmanfm-qt.desktop;
 text/plain=featherpad.desktop;
+application/pdf=AdobeReader.desktop;
 
 [Default Applications]
 application/xml=featherpad.desktop;
