@@ -1,0 +1,11 @@
+[io/missioncenter/MissionCenter]
+window-height=400
+window-width=600
+performance-page-cpu-graph=2
+performance-page-kernel-times=true
+apps-page-sorting-column='Memory'
+apps-page-sorting-order='Descending'
+window-selected-page='performance-page'
+performance-selected-page='cpu'
+app-update-interval=35
+perfomance-page-data-points=60
