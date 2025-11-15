@@ -28,6 +28,7 @@ prependToPath() {
 updateEverything() {
 
 	sudo  apt update  &&  apt full-upgrade
+	flatpak update
 	
 }
 
