@@ -1,7 +1,7 @@
 
 # Created by lxqt-config-appearance (DO NOT EDIT!)
 gtk-theme-name = "Sparky7-Dark"
-gtk-icon-theme-name = "ePapirus-Dark"
+gtk-icon-theme-name = "oxygen"
 gtk-font-name = "Sans 11"
 gtk-button-images = 1
 gtk-menu-images = 1
