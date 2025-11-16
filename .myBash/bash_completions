@@ -1,5 +1,26 @@
 eval "$(register-python-argcomplete pipx)"
 
+# bash parameter completion for the dotnet CLI. Using this instead of the eval below as it seems broken
+# Check https://learn.microsoft.com/en-us/dotnet/core/tools/enable-tab-autocomplete
+# If the eval starts working, delete this function and its complete bash command.
+function _dotnet_bash_complete()
+{
+  local cur="${COMP_WORDS[COMP_CWORD]}" IFS=$'\n' # On Windows you may need to use use IFS=$'\r\n'
+  local candidates
+
+  read -d '' -ra candidates < <(dotnet complete --position "${COMP_POINT}" "${COMP_LINE}" 2>/dev/null)
+
+  read -d '' -ra COMPREPLY < <(compgen -W "${candidates[*]:-}" -- "$cur")
+}
+
+# Currently not working. Fails with:
+#	Required command was not provided.
+#	Unrecognized command or argument 'generate'.
+#	Unhandled exception: The shell application 'bash' is not supported. The following shells are supported by this application: bash, pwsh, fish, zsh, nushell
+#eval "$(dotnet completions generate bash)"
+
 complete -C /usr/bin/terraform	terraform
 complete -C aws_completer		aws
 complete -C	terraform			tflocal
+
+complete -f -F _dotnet_bash_complete dotnet
